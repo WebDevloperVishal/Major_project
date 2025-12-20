@@ -6,10 +6,10 @@ import { serverUrl } from '../App'
 function ForgotPassword() {
     const [step,setStep]=useState(1)
     const [inputClicked,setInputClicked]=useState({
-        email:false,
-        otp:false,
-        newPassword:false,
-        confirmNewPassword:false
+        email:true,
+        otp:true,
+        newPassword:true,
+        confirmNewPassword:true
     })
     const [email,setEmail]=useState("")
     const [otp,setOtp]=useState("")
